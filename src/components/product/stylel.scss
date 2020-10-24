@@ -1,0 +1,36 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 250px;
+    height: auto;
+
+    &__image{
+        height: 250px;
+        object-fit: cover;
+    }
+
+    &__description{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        max-height: 200px;
+        justify-content: space-between;
+        .price{
+            font-size: 13px;
+            color: gray;
+        }
+        .description{
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        button{
+            margin-top: 10px;
+        }
+    }
+}

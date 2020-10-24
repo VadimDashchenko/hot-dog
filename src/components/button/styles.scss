@@ -1,0 +1,19 @@
+.button{
+    padding: 7px 10px;
+    border:none;
+    &:hover{
+        cursor: pointer;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.content-button{
+    background: #dedede;
+    color: #000;
+    //margin-top: 10px;
+}
+.modal-button{
+    background: #000;
+    color: #fff;
+}

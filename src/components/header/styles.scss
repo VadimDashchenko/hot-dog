@@ -1,0 +1,23 @@
+.header{
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.58);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.58);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.58);
+    height: 50px;
+    width: 100%;
+
+    &__button{
+        margin: 10px;
+        background-color: #fff;
+        border: none;
+        &:focus{
+            outline: none;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

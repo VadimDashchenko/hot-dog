@@ -1,0 +1,13 @@
+.edit-form{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  input, textarea{
+    min-height: 25px;
+    height: auto;
+    border: 1px solid #dedede;
+    &:focus{
+      outline: none;
+    }
+  }
+}
